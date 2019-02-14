@@ -4,10 +4,10 @@
 var myImage = document.querySelector('img');
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
-    if(mySrc === '/Users/josip.marcelic/Desktop/web-projects/test-site/images/Now_logo_RGB_600dpi_GG+A.png'){
-        myImage.setAttribute('src', '/Users/josip.marcelic/Desktop/web-projects/test-site/images/Now_logo_RGB_600dpi_BL.png');
+    if(mySrc === 'Now_logo_RGB_600dpi_GG+A.png'){
+        myImage.setAttribute('src', 'Now_logo_RGB_600dpi_BL.png');
     }else {
-        myImage.setAttribute ('src', '/Users/josip.marcelic/Desktop/web-projects/test-site/images/Now_logo_RGB_600dpi_GG+A.png')
+        myImage.setAttribute ('src', 'Now_logo_RGB_600dpi_GG+A.png')
     }
 }
 
