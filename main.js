@@ -4,10 +4,10 @@
 var myImage = document.querySelector('img');
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
-    if(mySrc === 'Now_logo_RGB_600dpi_GG+A.png'){
-        myImage.setAttribute('src', 'Now_logo_RGB_600dpi_BL.png');
+    if(mySrc === 'Fritule-s-jabukama-img.jpg'){
+        myImage.setAttribute('src', 'fritule-s-jabukama-img2.jpeg');
     }else {
-        myImage.setAttribute ('src', 'Now_logo_RGB_600dpi_GG+A.png')
+        myImage.setAttribute ('src', 'Fritule-s-jabukama-img.jpg')
     }
 }
 
