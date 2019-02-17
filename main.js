@@ -4,10 +4,10 @@
 var myImage = document.querySelector('img');
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
-    if(mySrc === 'Fritule-s-jabukama-img.jpg'){
+    if(mySrc === 'fritule-s-jabukama-img.jpg'){
         myImage.setAttribute('src', 'fritule-s-jabukama-img2.jpeg');
     }else {
-        myImage.setAttribute ('src', 'Fritule-s-jabukama-img.jpg')
+        myImage.setAttribute ('src', 'fritule-s-jabukama-img.jpg')
     }
 }
 
